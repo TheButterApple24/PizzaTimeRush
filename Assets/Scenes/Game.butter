@@ -13,7 +13,7 @@ GameObjects:
       ScriptFields:
         - Name: Offset
           Type: Vector3
-          Data: [5.25, -4.96000004, -20]
+          Data: [6, -5, -16]
     SpriteRendererComponent:
       Color: [1, 1, 1, 1]
       TilingFactor: [1, 1]
@@ -980,12 +980,17 @@ GameObjects:
     TransformComponent:
       Position: [-22.7777596, -42.7668304, 0]
       Rotation: [0, 0, 0]
-      Scale: [2.45090628, 4.38931465, 1]
+      Scale: [4.13121939, 4.73250294, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
       ScriptFields:
         []
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -1418,7 +1423,7 @@ GameObjects:
     TagComponent:
       Tag: Player
     TransformComponent:
-      Position: [0, -40.479641, -1.49011612e-08]
+      Position: [0, -40.1161423, 0]
       Rotation: [0, 0, 0]
       Scale: [2, 4, 1]
       IsChild: false
@@ -1433,10 +1438,10 @@ GameObjects:
           Data: 100
         - Name: Steering
           Type: Float
-          Data: 40
+          Data: 20
     AudioSourceComponent:
       SoundFilepath: Audio\engine.wav
-      Pitch: 0.862024546
+      Pitch: 0.175061256
       Gain: 0.25
       LoopSound: true
     SpriteRendererComponent:
@@ -1558,7 +1563,7 @@ GameObjects:
     TransformComponent:
       Position: [-20.2362041, -29.9276428, 0]
       Rotation: [0, 0, 0]
-      Scale: [2.64537501, 4.38931465, 1]
+      Scale: [4.14813614, 4.38931465, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -1566,6 +1571,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 1
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -1921,7 +1931,7 @@ GameObjects:
     TransformComponent:
       Position: [-35.0929565, -20.2559261, 0]
       Rotation: [0, 0, 0]
-      Scale: [2.64537501, 4.38931465, 1]
+      Scale: [4.97684669, 5.46330214, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -1929,6 +1939,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 2
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -1947,9 +1962,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone4
     TransformComponent:
-      Position: [-50.8621101, -31.490593, 0]
+      Position: [-48.2499542, -31.490593, 0]
       Rotation: [0, 0, 0]
-      Scale: [2.64537501, 4.38931465, 1]
+      Scale: [10.3656473, 6.27935314, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -1957,6 +1972,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 3
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -1975,9 +1995,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone5
     TransformComponent:
-      Position: [31.8597832, -12.2501373, 0]
+      Position: [31.9977684, -12.2501373, 0]
       Rotation: [0, 0, 0]
-      Scale: [5, 2.29873252, 1]
+      Scale: [5, 3.97316933, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -1985,6 +2005,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 4
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2003,9 +2028,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone6
     TransformComponent:
-      Position: [35.5402336, 8.25614452, 0]
+      Position: [35.5402336, 11.1135464, 0]
       Rotation: [0, 0, 0]
-      Scale: [5, 2.29873252, 1]
+      Scale: [11.748086, 8.56658268, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2013,6 +2038,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 5
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2031,9 +2061,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone7
     TransformComponent:
-      Position: [30.587759, 32.6394539, 0]
+      Position: [31.1916008, 32.6394539, 0]
       Rotation: [0, 0, 0]
-      Scale: [5, 2.29873252, 1]
+      Scale: [5.84759331, 4.19237375, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2041,6 +2071,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 6
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2059,9 +2094,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone8
     TransformComponent:
-      Position: [-10.9971676, 32.6394539, 0]
+      Position: [-10.9971676, 32.2893639, 0]
       Rotation: [0, 0, 0]
-      Scale: [5, 2.29873252, 1]
+      Scale: [5.58471727, 4.18522644, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2069,6 +2104,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 7
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2087,9 +2127,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone9
     TransformComponent:
-      Position: [-26.1471062, 36.3903999, 0]
+      Position: [-26.1471062, 36.8829727, 0]
       Rotation: [0, 0, 0]
-      Scale: [5, 2.29873252, 1]
+      Scale: [6.75729275, 4.49019718, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2097,6 +2137,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 8
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2115,9 +2160,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone10
     TransformComponent:
-      Position: [-33.6452675, 46.6457291, 0]
+      Position: [-34.0386124, 46.6457291, 0]
       Rotation: [0, 0, 0]
-      Scale: [2.17815685, 5.31343889, 1]
+      Scale: [4.84467793, 5.67728758, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2125,6 +2170,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 9
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2143,9 +2193,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone11
     TransformComponent:
-      Position: [-43.8237, 22.9212627, 0]
-      Rotation: [0, 0, 0]
-      Scale: [2.17815685, 5.31343889, 1]
+      Position: [-47.3712807, 22.9212627, 0]
+      Rotation: [0, 0, -3.14159226]
+      Scale: [11.3500004, 5.31343889, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2153,6 +2203,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 10
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2171,9 +2226,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone12
     TransformComponent:
-      Position: [11.2405291, 23.4474239, 0]
+      Position: [12.9040537, 23.4474239, 0]
       Rotation: [0, 0, 0]
-      Scale: [2.17815685, 5.31343889, 1]
+      Scale: [7.63553858, 5.31343889, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2181,6 +2236,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 11
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2199,9 +2259,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone13
     TransformComponent:
-      Position: [43.3938446, 28.7754154, 0]
+      Position: [44.0263023, 28.7754154, 0]
       Rotation: [0, 0, 0]
-      Scale: [2.17815685, 5.31343889, 1]
+      Scale: [4.64463615, 5.31343889, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2209,6 +2269,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 12
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2227,9 +2292,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone14
     TransformComponent:
-      Position: [20.037384, -42.3775902, 0]
+      Position: [19.1750469, -42.3775902, 0]
       Rotation: [0, 0, 0]
-      Scale: [2.17815685, 5.31343889, 1]
+      Scale: [5.13038397, 5.31343889, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2237,6 +2302,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 13
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2255,9 +2325,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone15
     TransformComponent:
-      Position: [-8.10697746, 1.92105198, 0]
+      Position: [-7.51290607, 1.92105198, 0]
       Rotation: [0, 0, 0]
-      Scale: [2.17815685, 5.31343889, 1]
+      Scale: [5.81252766, 5.31343889, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2265,6 +2335,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 14
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2285,7 +2360,7 @@ GameObjects:
     TransformComponent:
       Position: [-12.0956287, 17.4269714, 0]
       Rotation: [0, 0, 0]
-      Scale: [2.17815685, 5.31343889, 1]
+      Scale: [5.04722881, 5.31343889, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2293,6 +2368,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 15
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2311,9 +2391,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone17
     TransformComponent:
-      Position: [29.8438797, 47.2988014, 0]
+      Position: [31.4792118, 48.8117065, 0]
       Rotation: [0, 0, 0]
-      Scale: [2.17815685, 5.31343889, 1]
+      Scale: [7.49611092, 8.38340855, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2321,6 +2401,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 16
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2339,9 +2424,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone18
     TransformComponent:
-      Position: [-31.7152176, 13.3741837, 0]
+      Position: [-30.1325054, 15.4514256, 0]
       Rotation: [0, 0, 0]
-      Scale: [5, 2.29873252, 1]
+      Scale: [6.77428818, 7.79603052, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2349,6 +2434,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 17
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2367,9 +2457,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone19
     TransformComponent:
-      Position: [-45.8472672, 9.44907761, 0]
+      Position: [-45.8472672, 9.02146435, 0]
       Rotation: [0, 0, 0]
-      Scale: [5, 2.29873252, 1]
+      Scale: [6.61852741, 4.96586943, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2377,6 +2467,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 18
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false
@@ -2395,9 +2490,9 @@ GameObjects:
     TagComponent:
       Tag: DeliverZone20
     TransformComponent:
-      Position: [-4.16627216, -12.2311831, 0]
+      Position: [-4.16627216, -12.7906132, 0]
       Rotation: [0, 0, 0]
-      Scale: [5, 2.29873252, 1]
+      Scale: [5.77131319, 4.70737362, 1]
       IsChild: false
     ScriptComponent:
       ClassName: LD53.DeliverZone
@@ -2405,6 +2500,11 @@ GameObjects:
         - Name: HouseIndex
           Type: Int
           Data: 19
+    AudioSourceComponent:
+      SoundFilepath: Audio\DeliverPizza.wav
+      Pitch: 1
+      Gain: 1
+      LoopSound: false
     Rigidbody2DComponent:
       BodyType: Static
       FixedRotation: false

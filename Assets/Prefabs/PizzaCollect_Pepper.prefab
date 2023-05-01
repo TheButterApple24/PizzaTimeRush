@@ -1,4 +1,4 @@
-GameObject: 14446693344265681020
+GameObject: 7017199974315632986
 TagComponent:
   Tag: PizzaCollect_Pepper
 TransformComponent:
@@ -12,6 +12,11 @@ ScriptComponent:
     - Name: PizzaFlavour
       Type: Int
       Data: 5
+AudioSourceComponent:
+  SoundFilepath: Audio\PickupPizza.wav
+  Pitch: 1
+  Gain: 1
+  LoopSound: false
 SpriteRendererComponent:
   Color: [1, 1, 1, 1]
   TilingFactor: [1, 1]

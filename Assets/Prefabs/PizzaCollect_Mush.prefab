@@ -1,4 +1,4 @@
-GameObject: 14446693344265681020
+GameObject: 10195179114631979354
 TagComponent:
   Tag: PizzaCollect_Mush
 TransformComponent:
@@ -12,6 +12,11 @@ ScriptComponent:
     - Name: PizzaFlavour
       Type: Int
       Data: 4
+AudioSourceComponent:
+  SoundFilepath: Audio\PickupPizza.wav
+  Pitch: 1
+  Gain: 1
+  LoopSound: false
 SpriteRendererComponent:
   Color: [1, 1, 1, 1]
   TilingFactor: [1, 1]
