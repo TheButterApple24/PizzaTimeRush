@@ -5,7 +5,5 @@ In this round based game you are a pizza delivery driver, you must collect the p
 
 This was created for Ludum Dare 53. This was created in my own custom Game Engine.
 
-Check out my friend Tyler Oram who created the art: https://www.tyleroram.art/
-
 Play here!
 https://thebutterapple24.itch.io/pizza-time-rush
